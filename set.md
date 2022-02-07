@@ -1,6 +1,6 @@
 # 有雙向迭帶器
 ```cpp
-	set <int> s;
+	set <int> s = {2,3};
 	s.insert(1);
 	s.insert(9);
 	s.insert(4);

@@ -18,5 +18,7 @@
 	else {
 		cout << "not";
 	}
+	
+	//s.erase(flag);
 
 ```

@@ -1,5 +1,5 @@
 ## set
-### set改變排序只需要改寫 operator< 不需要寫sort
+### set改變排序只需要改寫此物件的 operator< 不需要寫sort
 ```cpp
 #include<iostream>
 #include<vector>

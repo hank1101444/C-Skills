@@ -1,4 +1,25 @@
 ### map find
+## 可以直接找 若沒找到 會回傳該型態的空型態
+```cpp
+#include <iostream>
+using namespace std;
+#include <map>
+#include <string>
+int main() {
+	map <string, char> m;
+	string test;
+	m["123"] = '1';
+	while (cin >> test) {
+		if (m[test] == char())
+			cout << "none";
+		else
+			cout << m[test];
+	}
+	
+	return 0;
+}
+```
+### find 解法(少用)
 ```cpp
 int main() {
 	map<int, string> m;

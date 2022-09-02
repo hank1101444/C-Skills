@@ -35,7 +35,6 @@ void BFS(int mp[][col]) {
 	}
 }
 
-
 int main() {
 	//(3, 1) -> (2,0)
 	while (cin >> sx >> sy >> tx >> ty) {
@@ -56,7 +55,10 @@ int main() {
 			}
 			cout << endl;
 		}
-		cout << endl << ans[tx][ty];
+		if (ans[tx][ty] != -1)
+			cout << ans[tx][ty] << '\n';
+		else
+			cout << "cannot access destination\n";
 	}
 
 	return 0;

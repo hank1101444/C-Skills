@@ -36,6 +36,7 @@ void BFS(int mp[][col]) {
 }
 
 int main() {
+	// 輸入非座標
 	//(3, 1) -> (2,0)
 	while (cin >> sx >> sy >> tx >> ty) {
 		--sx;

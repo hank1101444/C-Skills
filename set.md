@@ -1,6 +1,12 @@
-# 有雙向迭帶器
+
+
+## initalize
 ```cpp
 	set <int> s = {2,3};
+	set <int> ss(v.begin(), v.end());
+```
+## 有雙向迭帶器 有find, count
+```cpp
 	s.insert(1);
 	s.insert(9);
 	s.insert(4);
